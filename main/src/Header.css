@@ -1,0 +1,28 @@
+.HeaderBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name{
+    color: #FCD751;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icons{
+    list-style: none;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 15px;
+}
+
+img{
+    height: 24px;
+    width: 24px;
+}

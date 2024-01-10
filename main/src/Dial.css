@@ -1,0 +1,62 @@
+.dial-menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dial {
+    position: relative;
+    width: 310px;
+    height: 620px;
+    overflow: visible;
+    border-top-right-radius: 620px;
+    border-bottom-right-radius: 620px;
+    border: 2px solid rgba(201, 212, 243, 0.65);
+    border-left: none;
+  }
+  
+  .dial-option {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    width: 600px;
+    height: 0px; 
+    border: none;
+    background: none;
+    transform-origin: 0 center; 
+    transition: transform 0.5s ease;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgba(201, 212, 243, 0.65);
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: rgba(201, 212, 243, 0.65);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .optionsBtnDiv {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 184%;
+    transform-origin: left center;
+    transform-origin: 0 center; 
+    transition: transform 0.5s ease;
+  }
+  
+  .dial-option.selected {
+    color: #C9D4F3;
+  }
+  
+  .dial-option.selected .dot {
+    background-color: #C9D4F3;
+  }
+  
