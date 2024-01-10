@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Dial.css'; 
 
-const Dial = () => {
+const Dial = ({ onOptionSelect }) => {
     const options = ["ABOUT ME", "HOME", "EXPERIENCE", "PROJECTS", "COOL THINGS"];
+    const reference = ["about", "home", "experience", "projects", "coolthings"];
     const [selectedOption, setSelectedOption] = useState(1);
-    // The radius of the semi-circle where the dots will be placed
     const radius = 300;
   
     const handleSelectOption = (index) => {
       setSelectedOption(index);
-      // Additional logic for option selection, like navigation, can be added here
+      onOptionSelect(reference[index]);
     };
   
     return (
