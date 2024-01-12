@@ -1,12 +1,115 @@
 .container{
-    
+    margin-left: 40%;
+    margin-top: 10%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 600px;
 }
 
 .headingText{
+    color: #C9D4F3;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#bradley{
+    color: #FCD751;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subheading{
+    color: rgba(201, 212, 243, 0.65);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bodyText{
+    color: rgba(201, 212, 243, 0.65);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 184%;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.button {
+    border-radius: 14px;
+    border: 1px solid #C9D4F3;
+    color: white;
+    display: inline-block;
+    color: #C9D4F3;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow: hidden;
+    padding: 17px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    text-decoration: none;
+    transition: 0.4s ease;
+    z-index: 1;
+    margin-right: 10px;
+}
+
+.refs{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.headingText2{
     color: #C9D4F3;
     font-family: Montserrat;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.headingText2-Container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+hr{
+    border: 1px solid rgba(201, 212, 243, 0.30);
+    height: 0px;
+    min-width: 300px
+}
+
+.hrdiv{
+    margin-top: auto;
+}
+
+.highlighted{
+    color: #FCD751;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 184%;
 }

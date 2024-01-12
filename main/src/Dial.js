@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Dial.css'; 
 
 const Dial = ({ onOptionSelect }) => {
-    const options = ["ABOUT ME", "HOME", "EXPERIENCE", "PROJECTS", "COOL THINGS"];
-    const reference = ["about", "home", "experience", "projects", "coolthings"];
+    const options = ["ABOUT ME", "HOME", "PROJECTS", "EXPERIENCE", "COOL THINGS"];
+    const reference = ["about", "home", "projects", "experience", "coolthings"];
     const [selectedOption, setSelectedOption] = useState(1);
     const radius = 300;
   

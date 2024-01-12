@@ -10,9 +10,21 @@ const Header = () => {
             <div className='name'>bradley huang</div>
             <div>
                 <ul className='icons'>
-                    <li><img src={emailLogo} alt='email'></img></li>
-                    <li><img src={githubLogo} alt='github'></img></li>
-                    <li><img src={linkedInLogo} alt='linkedin'></img></li>
+                    <li>
+                        <a href='mailto: bhuang8450@gmail.com'>
+                            <img src={emailLogo} alt='email'></img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://github.com/kaiserarg'>
+                            <img src={githubLogo} alt='github'></img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://www.linkedin.com/in/bhuang76/'>
+                            <img src={linkedInLogo} alt='linkedin'></img>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

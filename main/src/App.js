@@ -4,7 +4,7 @@ import Dial from './Dial';
 import Header from './Header';
 import Home from './pages/home';
 import CoolThings from './pages/coolthings';
-import Experience from './pages/experience';
+import Experience from './pages/Experience';
 import Projects from './pages/projects';
 import About from './pages/about';
 
@@ -35,8 +35,10 @@ const App = () => {
   return (
     <div>
       <Header></Header>
-      {renderOptionComponent()}
-      <Dial onOptionSelect={handleOptionSelect} />
+      <div className='app-container'>
+        <Dial onOptionSelect={handleOptionSelect} />
+        {renderOptionComponent()}
+      </div>
     </div>
   );
 };

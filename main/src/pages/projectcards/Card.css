@@ -1,0 +1,40 @@
+.card {
+    border-radius: 12px;
+    background: #112240;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.card-header {
+    padding: .7rem;
+    color: #C9D4F3;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-icon-box{
+    display: flex;
+    gap: 10px;
+}
+
+.card-body {
+    padding: .7rem;
+}
