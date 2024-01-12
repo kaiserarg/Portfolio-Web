@@ -6,7 +6,7 @@ const about = () => {
         <div className="container">
             <div className='headingText2-Container'>
                 <div className='headingText2'>
-                    // about me
+                    {"//"} about me
                 </div>
                 <div className='hrdiv'>
                     <hr></hr>

@@ -4,8 +4,8 @@ import ExpCard from './expcards/ExpCard';
 import resume from '../assets/resume.pdf'
 
 function Exp() {
-    const [select, setSelect] = useState(0);
-
+    const [select] = useState(0);
+      
     const jobs = [
         {
             title: "Data Analytics Intern",
@@ -29,15 +29,15 @@ function Exp() {
         <div className="container">
             <div className='headingText2-Container'>
                 <div className='headingText2'>
-                    // experience
+                    {"//"} experience
                 </div>
                 <div className='hrdiv'>
                     <hr></hr>
                 </div>
             </div>
             <ExpCard job={jobs[select]}></ExpCard>
-            <div>
-                <a className='highlighted' style={{textDecoration:"none"}} href={resume} download="bradley_huang_resume.pdf" target="_blank" >VIEW MY RESUME &gt;</a>
+            <div style={{alignSelf: 'flex-end'}}>
+                <a className='highlighted' style={{textDecoration:"none"}} href={resume} download="bradley_huang_resume.pdf">VIEW MY RESUME &gt;</a>
             </div>
         </div>
     );

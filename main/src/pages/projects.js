@@ -35,7 +35,7 @@ const coolthings = () => {
         <div className="container">
             <div className='headingText2-Container'>
                 <div className='headingText2'>
-                    // projects
+                    {"//"} projects
                 </div>
                 <div className='hrdiv'>
                     <hr></hr>
