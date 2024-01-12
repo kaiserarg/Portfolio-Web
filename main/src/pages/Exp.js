@@ -3,7 +3,7 @@ import './pages.css';
 import ExpCard from './expcards/ExpCard';
 import resume from '../assets/resume.pdf'
 
-function Experience() {
+function Exp() {
     const [select, setSelect] = useState(0);
 
     const jobs = [
@@ -43,4 +43,4 @@ function Experience() {
     );
 }
 
-export default Experience;
+export default Exp;

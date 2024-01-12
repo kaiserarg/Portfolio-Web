@@ -4,7 +4,7 @@ import Dial from './Dial';
 import Header from './Header';
 import Home from './pages/home';
 import CoolThings from './pages/coolthings';
-import Experience from './pages/Experience';
+import Exp from './pages/Exp';
 import Projects from './pages/projects';
 import About from './pages/about';
 
@@ -22,7 +22,7 @@ const App = () => {
       case "coolthings":
         return <CoolThings />;
       case "experience":
-        return <Experience />;
+        return <Exp />;
       case "projects":
         return <Projects />;
       case "about":
